@@ -58,3 +58,10 @@ Criar uma interface simples que ajude o usuário a planejar e acompanhar seus es
 ### Tela de Progresso
 - Percentual de tarefas concluídas
 - Histórico diário
+
+## Métricas e KPIs
+
+- Usuários ativos diários
+- Percentual de tarefas concluídas
+- Tempo médio de uso por sessão
+- Taxa de abandono do planejamento
