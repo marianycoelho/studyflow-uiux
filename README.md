@@ -42,3 +42,19 @@ Criar uma interface simples que ajude o usuário a planejar e acompanhar seus es
 - Criação de wireframes no Figma
 - Testes de usabilidade
 - Ajustes com base em feedback dos usuários
+
+## Wireframes (descrição)
+
+### Tela Inicial
+- Resumo do dia
+- Lista de tarefas planejadas
+- Botão para adicionar nova tarefa
+
+### Tela de Planejamento
+- Seleção de matéria
+- Definição de horário
+- Botão salvar
+
+### Tela de Progresso
+- Percentual de tarefas concluídas
+- Histórico diário
