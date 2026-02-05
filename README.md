@@ -1,81 +1,140 @@
-# StudyFlow – Projeto UI/UX
+# StudyFlow 📚
 
-Projeto de UI/UX focado na organização de estudos diários.
+Plataforma de organização de estudos com foco em produtividade e acompanhamento de progresso.
 
-## Problema
-Muitos estudantes têm dificuldade em organizar o que estudar, acompanhar progresso e manter constância.
+---
 
-## Público-alvo
-- Estudantes de concursos
-- Universitários
-- Pessoas que estudam de forma autodidata
+## 🎯 Visão Geral do Projeto
 
-## Objetivo
-Criar uma interface simples que ajude o usuário a planejar e acompanhar seus estudos diariamente.
+**StudyFlow** é uma solução de UI/UX designada para ajudar estudantes a organizarem suas rotinas de estudo, acompanharem o progresso de suas matérias e mantiverem a constância necessária para alcançar seus objetivos acadêmicos.
 
-## Funcionalidades principais
-- Cadastro de matérias
-- Planejamento diário de estudos
-- Marcação de tarefas concluídas
-- Visualização de progresso
+O projeto nasceu da identificação de um problema real: estudantes lutam para organizar o que estudar, visualizar seu progresso e manter uma rotina consistente, especialmente em contextos de preparação para concursos ou autodidata.
 
-## Fluxo do usuário
-1. Usuário abre o aplicativo
-2. Cria sua rotina de estudos
-3. Adiciona matérias e tarefas
-4. Marca tarefas como concluídas
-5. Acompanha o progresso diário
+---
 
-## Estrutura de telas
-- Tela inicial (resumo do dia)
-- Tela de planejamento
-- Tela de tarefas
-- Tela de progresso
+## 🔍 O Problema
 
-## Decisões de UX
-- Interface simples para evitar sobrecarga
-- Poucos cliques para executar ações
-- Linguagem clara e acessível
-- Foco em constância, não em performance
+Estudantes enfrentam diversos desafios ao tentar organizar suas rotinas:
 
-## Próximos passos
-- Criação de wireframes no Figma
-- Testes de usabilidade
-- Ajustes com base em feedback dos usuários
+- **Falta de organização clara** – Não sabem por onde começar ou qual matéria focar
+- **Dificuldade em acompanhar progresso** – Sem visualização clara do que foi alcançado
+- **Falta de constância** – Períodos de estudos inconsistentes levam ao abandono
+- **Informação desorganizada** – Tarefas espalhadas em vários locais e formatos
 
-## Wireframes (descrição)
+---
 
-### Tela Inicial
-- Resumo do dia
-- Lista de tarefas planejadas
-- Botão para adicionar nova tarefa
+## 👥 Público-alvo
 
-### Tela de Planejamento
-- Seleção de matéria
-- Definição de horário
-- Botão salvar
+- **Estudantes de concursos** – Precisam de organização rigorosa
+- **Estudantes universitários** – Buscam melhorar gerenciamento de atividades
+- **Autodidatas** – Necessitam de estrutura para aprendizado independente
 
-### Tela de Progresso
-- Percentual de tarefas concluídas
-- Histórico diário
+---
 
-## Métricas e KPIs
+## 💡 Proposta de Valor
 
-- Usuários ativos diários
-- Percentual de tarefas concluídas
-- Tempo médio de uso por sessão
+O StudyFlow oferece uma experiência intuitiva que:
+
+- ✅ Simplifica o planejamento de estudos
+- ✅ Oferece visualização clara do progresso diário
+- ✅ Reduz sobrecarga cognitiva com interface minimalista
+- ✅ Incentiva constância através de tracking visual
+- ✅ Necessita de poucos cliques para executar ações principais
+
+---
+
+## ⚙️ Funcionalidades Principais
+
+| Funcionalidade | Descrição |
+|---|---|
+| **Cadastro de Matérias** | Adicionar e organizar as disciplinas a estudar |
+| **Planejamento Diário** | Definir horários e metas de estudo por dia |
+| **Marcação de Progresso** | Marcar tarefas como concluídas em tempo real |
+| **Dashboard de Progresso** | Visualizar percentual de conclusão diário/semanal |
+| **Painel de Tarefas** | Listagem centralizada de todas as atividades pendentes |
+| **Timer de Pomodoro** | Técnica pomodoro integrada para gerenciamento de tempo |
+
+---
+
+## 🔄 Fluxo do Usuário
+
+```
+1️⃣ Abrir aplicativo
+   ↓
+2️⃣ Criar rotina de estudos
+   ↓
+3️⃣ Adicionar matérias e tarefas
+   ↓
+4️⃣ Marcar progresso durante o dia
+   ↓
+5️⃣ Acompanhar evolução no dashboard
+```
+
+---
+
+## 🎨 Telas do Projeto
+
+### 📊 Dashboard Principal
+
+Visão geral diária com resumo do progresso e próximas tarefas.
+
+![Dashboard 1](ui-ux/ui-ux/screens/Dashboard%201.png)
+
+![Dashboard 2](ui-ux/ui-ux/screens/Dashboard%202.png)
+
+### 📚 Painel de Matérias
+
+Gerenciamento centralizado de todas as disciplinas e seus respectivos conteúdos.
+
+![Painel de Matérias](ui-ux/ui-ux/screens/Painel%20de%20materias%20.png)
+
+### ✅ Painel de Tarefas
+
+Interface para visualizar, criar e gerenciar tarefas de estudo.
+
+![Painel de Tarefas](ui-ux/ui-ux/screens/painel%20de%20tarefas.png)
+
+### ⏱️ Página de Timer
+
+Ferramenta integrada para técnica pomodoro com temporizador visual.
+
+![Página de Timer](ui-ux/ui-ux/screens/pagina%20de%20timer.png)
+
+---
+
+## 🎯 Decisões de UX
+
+- **Simplicidade em primeiro lugar** – Interface minimalista evita sobrecarga
+- **Eficiência de ação** – Máximo 2-3 cliques para qualquer ação principal
+- **Linguagem acessível** – Termos claros, evitando jargão técnico
+- **Foco em constância** – Design incentiva uso diário, não velocidade
+
+---
+
+## 📈 Métricas e KPIs
+
+Para avaliar o sucesso do StudyFlow, rastreamos:
+
+- Usuários ativos diários (DAU)
+- Percentual médio de tarefas concluídas
+- Tempo médio por sessão
+- Taxa de retenção semanal/mensal
 - Taxa de abandono do planejamento
 
-##  Estrutura do repositório
+---
 
-- ui-ux/
-  - Design das telas
-  - Protótipo no Figma
-  - Fluxo de navegação
+## 📁 Estrutura do Repositório
 
-- frontend/
-  - Início da implementação em HTML e CSS
-  - Baseado no layout criado no Figma
+```
+studyflow-uiux/
+├── README.md                 # Este arquivo
+├── ui-ux/
+│   └── ui-ux/
+│       └── screens/          # Screenshots das telas do projeto
+├── frontend/
+│   ├── index.html           # Prototipagem HTML
+│   └── style.css            # Estilos CSS
+└── .git/
+```
 
-##  Status do projeto
-Design concluído. 
+
