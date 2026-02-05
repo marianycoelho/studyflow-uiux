@@ -65,3 +65,17 @@ Criar uma interface simples que ajude o usuário a planejar e acompanhar seus es
 - Percentual de tarefas concluídas
 - Tempo médio de uso por sessão
 - Taxa de abandono do planejamento
+
+##  Estrutura do repositório
+
+- ui-ux/
+  - Design das telas
+  - Protótipo no Figma
+  - Fluxo de navegação
+
+- frontend/
+  - Início da implementação em HTML e CSS
+  - Baseado no layout criado no Figma
+
+##  Status do projeto
+Design concluído. 
